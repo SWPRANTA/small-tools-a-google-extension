@@ -1,50 +1,42 @@
-# React + TypeScript + Vite
+# Small Tools: Your pocket powerhouse for everyday calculations...
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![1725472108382](image/README/1725472108382.png "ScreenShot of the HomePage of the Extension")
 
-Currently, two official plugins are available:
+## **Features**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Small Tools is packed with features to help you tackle everyday tasks:
 
-## Expanding the ESLint configuration
+**🧮 Simple Calculator:** Need to add, subtract, multiply, or divide? Our built-in calculator has you covered.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+**🔄 Converter:**  Switch between different units with our versatile converter. Whether you're dealing with kilograms and pounds, dollars and euros, or Celsius and Fahrenheit, we've got you covered.
 
-- Configure the top-level `parserOptions` property like this:
+**🔐 Random Password Generator:** Generate strong, random passwords to keep your accounts secure.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+**🎨 Color Picker:**  Find the perfect color for your project with our intuitive color picker.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## How to Use
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+As I have not published the extension to any web store like Chrome or Edge😔, there are two ways to install this extension:
+
+**1. Build from Source**
+
+* **Prerequisites:** Make sure you have Node.js and npm installed.
+* **Steps:**
+  1. Clone the repository: `git clone https://github.com/SWPRANTA/small-tools-a-google-extension.git`
+  2. Navigate to the project directory: `cd <project directory>`
+  3. Install dependencies: `npm install`
+  4. Build the extension: `npm run build`
+  5. Go to your browsers manage extension option.
+  6. Turn on the `dev` mode and click "Load unpacked" option and then select the `dist` folder to load the extension.
+
+**2. Download Pre-built Extension**
+
+* **Steps:**
+  1. Download the `dist` folder from this page.
+  2. Go to your browsers manage extension option.
+  3. Turn on the `dev` mode and click "Load unpacked" option and then select the `dist` folder to load the extension.
+
+You are good to go now...😊
+
+Loved❤ this extension? Give it a star⭐on GitHub and spread the word! I'm always open to suggestions, so let me know what you think.
