@@ -4,7 +4,7 @@ export default function Home() {
     return (
       <div className="">
         <h1 className="font-andika text-3xl text-pp">Small Tools</h1>
-        <h3 className="text-sm text-white p-3">Your pocket powerhouse for everyday calculations!</h3>
+        <h3 className="text-sm text-white p-3">Because life's too short for small tasks!</h3>
   
         <div className="grid grid-cols-2 gap-2 mt-2">
           <Button name="Calculator" image='/calculator-svgrepo-com.svg' path="/calculator" />
