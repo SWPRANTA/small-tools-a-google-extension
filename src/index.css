@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: #5C88C4;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 500px;
+  max-height: 100vh;
+}
+

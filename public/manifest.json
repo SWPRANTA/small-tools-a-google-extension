@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "version": "1.0.0",
+    "name": "Small Tools",
+    "description": "Small tools helps you to do your small but necessray tasks without breaking the concentration to your work.",
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "tabs",
+        "scripting",
+        "activeTab"
+    ],
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ],
+    "icons": {
+        "16": "icon-16.png",
+        "32": "icon-32.png",
+        "48": "icon-48.png",
+        "128": "icon-128.png"
+    }
+}
